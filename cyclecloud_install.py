@@ -249,9 +249,9 @@ def cyclecloud_account_setup(vm_metadata, use_managed_identity, tenant_id, appli
                 get_vm_managed_identity()
 
             # create the cloud provide account
-            print("Registering Azure subscription in CycleCloud")
-            _catch_sys_error(["/usr/local/bin/cyclecloud", "account",
-                            "create", "-f", azure_data_file])
+            #print("Registering Azure subscription in CycleCloud")
+            #_catch_sys_error(["/usr/local/bin/cyclecloud", "account",
+            #                "create", "-f", azure_data_file])
 
 
 def initialize_cyclecloud_cli(admin_user, cyclecloud_admin_pw, webserver_port):
