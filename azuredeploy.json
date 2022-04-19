@@ -360,7 +360,7 @@
         "cycleNsgName": "cycle-nsg",
         "cycleIPName": "cycle-ip",
         "cycleSubnet": "cycle",
-        "installScriptURL": "https://raw.githubusercontent.com/CycleCloudCommunity/cyclecloud_arm/feature/update_cyclecloud_install/cyclecloud_install.py",
+        "installScriptURL": "https://raw.githubusercontent.com/robzelt/cyclecloud_arm/master/cyclecloud_install.py",
         "namingInfix": "[toLower(take(uniqueString(subscription().subscriptionId, resourceGroup().id), 6))]",
         "networkApiVersion": "2017-06-01",
         "resourceLocation": "[resourceGroup().location]",
